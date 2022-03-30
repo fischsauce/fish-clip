@@ -4,14 +4,14 @@ from flask_restful import Resource, Api, reqparse
 
 import sys
 import base64
-# sys.path.append("clipit")
-# sys.path.append("../../clipit")
-# sys.path.append("CLIP")
-# sys.path.append("../../CLIP")
-# sys.path.append("diffvg")
-# sys.path.append("../../diffvg")
-# sys.path.append("taming-transformers")
-# sys.path.append("../../taming-transformers")
+sys.path.append("clipit")
+sys.path.append("../clipit")
+sys.path.append("CLIP")
+sys.path.append("../CLIP")
+sys.path.append("diffvg")
+sys.path.append("../diffvg")
+sys.path.append("taming-transformers")
+sys.path.append("../taming-transformers")
 
 import clipit
 
