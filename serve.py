@@ -54,7 +54,7 @@ class Inference(Resource):
         # return {"image": encoded_string, "data": jsonify(return_list)}
 
 
-        return send_file('output.png', mimetype='image/png')
+        return send_file('../output.png', mimetype='image/png')
 
 
         # return {'data': data}, 200  # return data and 200 OK code
