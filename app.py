@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import pickle
 from PIL import Image
-# from sklearn.linear_model import LogisticRegressionCV
+from sklearn.linear_model import LogisticRegressionCV
 import PIL.Image
 
 import sys
